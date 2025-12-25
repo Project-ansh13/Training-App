@@ -1,9 +1,14 @@
+import { Button } from '@/components/Button';
+
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center">
-      <button className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-        Hello Cursor
-      </button>
+      <div className="flex flex-col items-center gap-4">
+        <h1 className="text-4xl font-bold text-gray-800">
+          Welcome to Trainee App
+        </h1>
+        <Button>Hello Cursor</Button>
+      </div>
     </div>
   );
 }
